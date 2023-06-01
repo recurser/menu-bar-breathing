@@ -21,7 +21,6 @@
 		5E81902724D8943400835E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E81902A24D8943400835E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E81902C24D8943400835E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E81902D24D8943400835E93 /* Menu_Bar_Breathing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Menu_Bar_Breathing.entitlements; sourceTree = "<group>"; };
 		5E81903324D895E400835E93 /* StatusBarIconAnimationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarIconAnimationUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +59,6 @@
 				5E81902724D8943400835E93 /* Assets.xcassets */,
 				5E81902924D8943400835E93 /* Main.storyboard */,
 				5E81902C24D8943400835E93 /* Info.plist */,
-				5E81902D24D8943400835E93 /* Menu_Bar_Breathing.entitlements */,
 				5E81903324D895E400835E93 /* StatusBarIconAnimationUtils.swift */,
 			);
 			path = "Menu Bar Breathing";
