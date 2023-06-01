@@ -6,17 +6,16 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
 
-    let statusItem = NSStatusBar.system.statusItem(withLength:50.0)
+    let statusItem = NSStatusBar.system.statusItem(withLength:25.0)
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
                 
         if let button = statusItem.button {
-          button.image = NSImage(named:NSImage.Name("40"))
+            button.title = ""
         }
         
-        var iconAnimation =
-            StatusBarIconAnimationUtils.init(statusBarItem: statusItem, imageNamePattern: "4",
-            imageCount: 16)
+        let iconAnimation =
+            StatusBarIconAnimationUtils.init(statusBarItem: statusItem)
     
         func startAnimation() {
             iconAnimation.startAnimating()
@@ -35,4 +34,3 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 }
-
